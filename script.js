@@ -22,7 +22,7 @@ var person = {
  var canDrive;
 
 if (person.age >= 16) {
-  canDrive = true
+  canDrive = true;
 }else {
  canDrive = false;
 }
@@ -30,7 +30,7 @@ if (person.age >= 16) {
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
-var dataTypes = [name, person.age, person, canDrive, undefined,null]
+var dataTypes = [name, person.age, person, canDrive, undefined,null];
 /* Create a Dog object using the `new` constructor.
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute.
